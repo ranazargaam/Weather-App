@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APP TEST</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <center>
+      <div class="container">
+        <h1>Weather App Test</h1>
+        <form onsubmit="weather(); return false;">
+          <label for="city">City Name</label>
+          <input id="c_name" type="text" placeholder="Enter a city name" />
+          <button type="submit">Check Weather</button>
+        </form>
+        <h3 id="temp_s">Temperature:</h3>
+        <h3 id="hum_s">Humidity:</h3>
+        <h3 id="wind_s">Wind Speed:</h3>
+      </div>
+    </center>
+
+    <button><a href="./image.html">Download </a></button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
